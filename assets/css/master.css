@@ -50,28 +50,19 @@
 
 .p_container {
   width: 70%;
-  padding-top: 220px;
+  padding-top: 300px;
   padding-left: 20px;
 }
 
 .p_uno {
   font-size: large;
-  color: white;
+  color: #fff;
 }
 
 .p_due {
   font-size: small;
-  color: white;
+  color: #fff;
 }
-/*---altezze colonne----*/
-
-
-
-.col_tre {
-  height: 450px;
-}
-
-
 
 /*---larghezza colonne----*/
 
