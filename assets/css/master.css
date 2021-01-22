@@ -126,12 +126,14 @@
   height: 150px;
   background-color: black;
   border-radius: 6px;
+  opacity: 0.2;
 }
 
 
 .text_container_section_one {
   width: 100%;
   height: 150px;
+  margin-top: 20px;
 }
 
 .class{
@@ -154,9 +156,20 @@
   border-radius: 6px;
 }
 
+.trans_container.tre {
+  border: black solid 2px;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  border-radius: 6px;
+  opacity: 0.2;
+}
+
+
 .text_container_section_two {
   width: 100%;
   height: 150px;
+  margin-top: 10px;
 }
 
 /*-------third section-------*/
@@ -167,12 +180,21 @@
   background-image: url("../img_2/img-4.jpg");
   background-size: cover;
   border-radius: 6px;
+}
 
+.trans_container.quattro {
+  border: black solid 2px;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  border-radius: 6px;
+  opacity: 0.2;
 }
 
 .text_container_section_three {
   width: 100%;
   height: 150px;
+  margin-top: 10px;
 }
 
 /*-------columns section-------*/
