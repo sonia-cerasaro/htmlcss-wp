@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.big_container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*---nav----*/
+
+.nav {
+  margin-top: 20px;
+
+
+}
+.b_nav {
+  color: #778899;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/*---altezze colonne----*/
+
+.col_uno {
+  height: 100px;
+}
+.col_due {
+  height: 400px;
+}
+
+.col_tre {
+  height: 450px;
+}
+
+.col_quattro {
+  height: 50px;
+}
+
+/*---larghezza colonne----*/
+
+.col-100 {
+  width: 100%;
+}
+
+/*---clear fix & float---*/
+
+.mt {
+  margin-top: 10px;
+}
+
+.row:after {
+  content: "";
+  clear:both;
+  display: table;
+}
+
+[class^="col-"] {
+  float: left;
+  padding: 0 20px;
+}
+
+/*---altezze di background---*/
+
+/*.bg_violet {
+  height: 100px;
+  background-color: violet;
+}*/
+
+.bg_yellow {
+  background-color: yellow;
+  height: 400px;
+}
+
+.bg_blue {
+  height: 450px;
+  background-color: blue;
+}
+
+.bg_purple {
+  height: 50px;
+  background-color: purple;
+}
+
+/*-------first nested row-------*/
+
+.col-100.annidata_uno {
+  width: 100%;
+  height: 60px;
+  padding: 0;
+}
+
+.row.annidata {
+  width: 100%;
+  height: 60px;
+}
+
+.bg_aqua {
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+}
+
+/*-------second nested row-------*/
+
+.row.annidata.seconda {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+}
+
+.col-100.annidata_due {
+  width: 25%;
+  height: 350px;
+  padding: 0;
+}
+
+.col-100.annidata_middle {
+  width: 50%;
+  height: 350px;
+}
+
+.bg_aqua.due {
+  width: 100%;
+  height: 350px;
+  background-color: aqua;
+}
+
+.bg_aqua.middle {
+  width: 100%;
+  height: 350px;
+  background-color: aqua;
+
+}
