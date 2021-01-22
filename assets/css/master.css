@@ -108,6 +108,7 @@
 }
 
 /*-------second nested row-------*/
+/*-------first section-------*/
 
 .bk_first_img {
   width: 100%;
@@ -123,7 +124,7 @@
   height: 150px;
 }
 
-#lorem {
+.class{
   font-size: small;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -133,8 +134,30 @@
   font-size: x-small;
 }
 
-.row.annidata.seconda {
+/*-------second section-------*/
+
+
+/*-------third section-------*/
+
+.bk_third_img {
   width: 100%;
+  height: 150px;
+  background-image: url("../img_2/img-4.jpg");
+  background-size: cover;
+  border-radius: 6px;
+
+}
+
+.text_container_section_three {
+  width: 100%;
+  height: 150px;
+}
+
+
+
+/*-------first section-------*/
+
+.row.annidata.seconda {
   margin-top: 20px;
 }
 
